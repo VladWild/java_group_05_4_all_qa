@@ -11,7 +11,7 @@ public class Main {
         String file = null;
 
         try {
-            file = Files.readString(Path.of("qa-19-04-2022/src/main/resources/file.csv"));
+            file = Files.readString(Path.of("qa-2022-04-19/src/main/resources/file.csv"));
         } catch (IOException e) {
             e.printStackTrace();
         }
